@@ -10,11 +10,49 @@
           <title>Contact</title>
      </head>
      <body>
-          <ul>
-               <li><a href="index.html">Home</a></li>
-               <li><a href="About.html">About</a></li>
-               <li><a href="Contact.html">Contact</a></li>
-          </ul>
-          <h1>Contact Page...</h1>
+          <header>
+               <h1 id="nav-title"><a href="index.html">JB</a></h1>
+               <nav>
+                    <ul>
+                         <li><a href="index.html">Home</a></li>
+                         <li><a href="About.html">About</a></li>
+                         <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+               </nav>
+          </header>
+          <h1 class="heading">Contact Me</h1>
+          <form action="Confirmation.html" class="form-box">
+               <label for="fname">First Name</label>
+               <input
+                    type="text"
+                    class="field"
+                    id="fname"
+                    name="firstname"
+                    placeholder="Enter first name"
+                    required
+               />
+
+               <label for="lname">Last Name</label>
+               <input
+                    type="text"
+                    class="field"
+                    id="lname"
+                    name="lastname"
+                    placeholder="Enter last name"
+                    required
+               />
+
+               <label for="email">Email</label>
+               <input
+                    type="email"
+                    class="field"
+                    id="email"
+                    name="email"
+                    placeholder="Enter email"
+                    required
+               />
+
+               <input type="submit" value="Submit" class="btn" />
+          </form>
      </body>
 </html>
